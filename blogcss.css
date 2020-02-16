@@ -50,6 +50,7 @@ header h3{
 	list-style: none;
 	/*display: inline-block;*/
 	margin: auto;
+	padding: 0px;
 }
 #navbar ul a{
 	display: block;
@@ -239,6 +240,7 @@ header h3{
 	list-style-type: "> ";
 	width: 300px;
 	padding-left:55px; 
+	margin-top: 50px;
 }
 #recent li a{
 	text-decoration: none;
@@ -312,4 +314,46 @@ footer p{
 	text-align: center;
 	margin-top:120px; 
 }
+/****************************************************/
+@media screen and (max-width: 1250px) {
+	#navbar{
+		/*font-size: 22px;*/
+		/*margin-left: 10px;*/
+	}
+	#content{
+		width: 800px;
+		height: 3500px;
+	}
+	#article{
+		height: 1600px;
+	}
+	.posts{
+		/*width: 500px;*/
+	}
+	#self{
+		width: 800px;
+		height: 2000px;
+	}
+	#self form{
+		margin-top: 30px;
+		margin-left:218px;
+	}
+	#recent{
 
+		margin-left: 210px;
+	}
+	footer{
+		position: relative;
+		bottom: 0px;
+	}
+	#links img{
+		margin: 20px 42px auto 42px;
+}
+
+}
+@media screen and (max-width: 1050px) {
+	#navbar li{
+		/*word-spacing: 1px;*/
+		margin-left: 10px;
+	}
+}
