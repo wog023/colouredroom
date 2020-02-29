@@ -224,7 +224,7 @@ header h3{
 #self input{
 	width: 255px;
 	height: 25px;
-	margin: 25px 0px 20px 35px;
+	margin: 25px 0px -10px 35px;
 	
 }
 #self button{
